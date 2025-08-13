@@ -1,6 +1,16 @@
 class Solution {
 public:
     string customSortString(string order, string s) {
+        // another method for this question easy to implement use the lambda method in sort functino 
+        sort(s.begin() , s.end() . [&](char ch1 , char ch2 ){
+               return (order.find(ch1) < order.find(ch2)); 
+        });
+
+        //if you want to sort the particular stirng based on the custom logic then u can use the sort functionality and pass the lambda funcitno  
+
+        // another method to solve this question but it is very long 
+        
+        
         string result= "";
         unordered_map<char,int>mp;
         for(int i = 0 ; i < s.size() ; i++){
