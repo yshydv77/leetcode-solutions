@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/yshydv77/leetcode-solutions/tree/master/0001-two-sum) |
 | [0075-sort-colors](https://github.com/yshydv77/leetcode-solutions/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
 ## Two Pointers
 |  |
@@ -77,4 +79,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
