@@ -15,16 +15,16 @@ public:
             return head;
         }
        else{
-        ListNode* temp = head;
-        ListNode* head1 = new ListNode(temp->val);
-        temp = temp->next;
-        while(temp != NULL){
-            ListNode* newNode = new ListNode (temp->val);
-            newNode->next = head1;
-            head1 = newNode;
-            temp = temp->next;
-        }
-        return head1;
+            ListNode* previous = NULL;
+            ListNode* current = head;
+            ListNode* forward = current->next;
+            while(current != NULL){
+                forward = current->next;
+                current->next = previous;
+                previous = current;
+                current = forward;
+            }
+            return previous;
        }
        return nullptr;
     }
