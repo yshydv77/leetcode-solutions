@@ -24,8 +24,8 @@ public:
                 previous = current;
                 current = forward;
             }
-            return previous;
+            head =  previous;
        }
-       return nullptr;
+       return head;
     }
 };
