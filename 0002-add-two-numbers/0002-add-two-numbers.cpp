@@ -10,94 +10,30 @@
  */
 class Solution {
 public:
-    ListNode* reverseLL(ListNode*& head) {
-        ListNode* current = head;
-        ListNode* previous = NULL;
-        while (current != NULL) {
-            ListNode* forward = current->next;
-            current->next = previous;
-            previous = current;
-            current = forward;
-        }
-        return previous;
-    }
-    int getLength(ListNode*& head) {
-        ListNode* temp = head;
-        int count = 0;
-        while (temp != NULL) {
-            count++;
-            temp = temp->next;
-        }
-        return count;
-    }
-    ListNode* equaliser(ListNode*& temp, int diff) {
-        temp = reverseLL(temp);
-        while (diff--) {
-            ListNode* newNode = new ListNode(0);
-            newNode->next = temp;
-            temp = newNode;
-        }
-        temp = reverseLL(temp);
-        return temp;
-    }
-    void printLL(ListNode* &head){
-        ListNode* temp = head;
-        while(temp!= NULL){
-            cout<<temp->val<<" ";
-            temp = temp->next;
-        }
-        cout<<endl;
-    }
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int length1 = getLength(l1);
-        int length2 = getLength(l2);
-        int diff = abs(length1 - length2);
-        cout<<"Before Equalised "<<endl;
-        cout<<"l1: " ;
-        printLL(l1);
-        cout<<"l2: " ;
-        printLL(l2);
-        if (length1 < length2) {
-            l1 = equaliser(l1 , diff);
-        } 
-        else {
-            l2 = equaliser(l2 , diff);
-        }
-        cout<<"After Equalised "<<endl;
-        cout<<"l1: " ;
-        printLL(l1);
-        cout<<"l2: " ;
-        printLL(l2);
+        auto ans = new ListNode(-1);
+        auto it = ans;
 
-        int carry = 0 ;
-        ListNode* temp = NULL;
-        ListNode* temp1 = l1;
-        ListNode* temp2 = l2;
-        ListNode* head = NULL;
-        while(temp1 != NULL && temp2 != NULL){
-            int data1 = temp1->val;
-            int data2 = temp2->val;
+        int carry = 0;
+
+        // agar while loop mein tum l1 likh do toh jab bhi vo not null hoga tab vo while loop execute hoga otherwise null hone par vo execute nahi hoga
+        // kisi bhi pointer null se point karna hai toh usko NULL ese na likhte hue agar aap 0 se bhi intialise karva skate hai 
+        while(l1 || l2 || carry){//iterate tab tak jab tak l1 is not null or l2 is not null or carry is not zero 
+            int data1 = l1 ? l1->val : 0;
+            int data2 = l2 ? l2->val : 0;
             int sum = data1 + data2 + carry;
             int digit = sum % 10;
             carry = sum / 10;
-            ListNode* newNode = new ListNode(digit);
-            if(temp == NULL && head == NULL){
-                temp = newNode;
-                head = temp;
-            }
-            else{
-                temp->next = newNode;
-                temp = newNode;
-            }
 
-            temp1 = temp1->next;
-            temp2 = temp2->next;
+            it->next = new ListNode (digit);
+            it = it->next;
+
+            l1 = l1 ? l1->next : 0; // ye intelligent practice hai ki aap phele hi check kar le ki l1 null toh nahi hai agar nahi hai toh hi uske next par jaye 
+            // better to use this shorthand notation avoid using that big if statements for checking that li is null or not
+            l2 = l2 ? l2->next : 0;
+
         }
-        if(carry){
-            ListNode* newNode = new ListNode(carry);
-            temp->next = newNode;
-            temp = newNode;
-        }
-        return head;
+
+        return ans->next;
     }
 };
