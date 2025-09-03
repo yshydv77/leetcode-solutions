@@ -10,6 +10,24 @@
  */
 class Solution {
 public:
+    ListNode* recursive(ListNode* l1 , ListNode* l2 , int carry = 0 ){
+    // base case
+        if(!l1 && !l2 && !carry){return 0;} // rukna hai jab l1 will be null and l2 null ho jaye and carry bhi nahi bache baki sare 
+        // case mein move karte rehna hai 
+
+        
+    // ek case mein solve karunga baaki recurssion 
+        int data1 = l1?l1->val : 0;
+        int data2 = l2> l2->val : 0;
+        int sum = data1 + data2 + carry;
+        int digit = sum % 10;
+        carry = sum / 10;
+        auto ans = new ListNode(digit);
+
+        ans->next = recursive(l1?l1->next:0 , l2? l2->next : 0 , carry);
+        
+        
+    }
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         auto ans = new ListNode(-1);
         auto it = ans;
