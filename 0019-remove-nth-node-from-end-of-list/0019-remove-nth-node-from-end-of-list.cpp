@@ -12,67 +12,37 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
 
-      if( head->next == NULL && n == 1){
-        return NULL;
-      }
 
-      auto it  = head;
+      // using the concept of dummy node
+      auto dummy = new ListNode(-1);
+      dummy->next = head;
+      auto it = head;
+      auto prev = dummy;
+      auto curr = head;
+
       int len = 0 ;
       while(it != NULL){
-        len++;
+        len ++;
         it = it->next;
       }
 
-      it = head;
-      int position = len - n ;
-      for(int i = 0 ; i < position - 1 ; i++){
-        it = it->next;
+      int i = 0 ;
+      while(i < (len-n)){
+        prev = prev->next;
+        curr = curr->next;
+        i++;
       }
-     
-      if(position == 0){
-        auto temp = it;
-        it = it->next;
-        head = it;
-        temp->next = 0;
-        delete(temp);
-        return head;
-      }
-      
-      auto temp = it->next;
-      it->next = temp->next;
-      temp->next = NULL;
-      delete(temp);
-      return head;
+
+
+      prev->next = curr->next;
+      curr->next = NULL;
+      delete(curr);
+
+      return dummy->next;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // if(head->next == 0 && n == 1){return 0;}
+      // if(head->next == 0 && n == 1){return 0;}
 
         // int len = 0;
         // auto it = head;
