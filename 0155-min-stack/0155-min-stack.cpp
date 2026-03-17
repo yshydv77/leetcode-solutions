@@ -1,49 +1,29 @@
 class MinStack {
 public:
-    vector<pair<int,int>>st;
+    vector<pair<int,int>>s;
     MinStack() {
         
     }
     
     void push(int val) {
-        pair<int,int>p;
-        p.first = val;
-        if(st.empty()){
-            p.second = val;
+        if(s.empty()){
+          s.push_back({val ,val});
         }
         else{
-            if(st.back().second > val){
-                // matlab mere minimum element change ho gaya hai and new minimum element mera ye value hoga
-                p.second = val;
-            }
-            else{
-                p.second = st.back().second;
-            }
+          s.push_back({val , min(s.back().second , val)});
         }
-
-        st.push_back(p);
     }
     
     void pop() {
-        if(st.empty()){
-           
-        }
-        st.pop_back();
+        s.pop_back();
     }
     
     int top() {
-        if(st.empty()){
-            return -1;
-        }
-        return st.back().first;
+        return s.back().first;
     }
     
     int getMin() {
-        if(st.empty()){
-            return -1;
-        }
-
-        return st.back().second;
+        return s.back().second;
     }
 };
 
