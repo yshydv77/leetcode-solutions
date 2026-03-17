@@ -118,9 +118,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0155-min-stack](https://github.com/yshydv77/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/yshydv77/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
