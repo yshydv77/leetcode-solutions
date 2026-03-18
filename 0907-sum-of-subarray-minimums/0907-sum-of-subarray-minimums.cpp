@@ -1,64 +1,67 @@
 class Solution {
 public:
-
-    void nextSmallerElement(vector<int>&arr , vector<int>&next){
-        stack<int>st;
-        st.push(-1);
-        // whenver we do this type of question isme mujhe index ka hi kaam hota hai
-        // jab hum next smaller element find out karte hai tab mein right side se start krta hu find out karna
-        for(int i = arr.size()-1 ; i>=0 ; i--){
-            int ele = arr[i];
-            while(st.top()!= -1 && arr[st.top()] >= ele ){
-                st.pop();
-            }
-
-            next[i] = st.top();
-            st.push(i);
+    vector<int>nextSmallerElement(vector<int>&arr){
+      vector<int>ans(arr.size());
+      stack<int>st;
+      st.push(-1);
+      for(int i = arr.size()-1 ; i>=0 ; i--){
+        while(st.top() != -1 && arr[st.top()] > arr[i]){
+          st.pop();
         }
-    }
-    void prevSmallerElement(vector<int>&arr , vector<int>&prev){
-        stack<int>st;
-        st.push(-1);
+        ans[i] = st.top();
+        st.push(i);
+      }
 
-        for(int i = 0 ; i < arr.size() ; i++){
-            int ele = arr[i];
-
-            while(st.top() != -1 && arr[st.top()] > ele){
-                st.pop();
-            }
-
-            prev[i] = st.top();
-            st.push(i);
+      // to simplify the calculation we replace the -1 in the answer array with the size of the arr
+      for(int i = 0 ; i < ans.size() ; i++){
+        if(ans[i] == -1){
+          ans[i] = arr.size();
         }
+      }
+
+      return ans;
     }
+    vector<int>prevSmallerElement(vector<int>&arr){
+      vector<int>ans(arr.size());
+      stack<int>st;
+      st.push(-1);
+      for(int i = 0 ; i < arr.size() ; i++){
+        while(st.top() != -1 && arr[st.top()] >= arr[i]){
+          st.pop();
+        }
+        ans[i] = st.top();
+        st.push(i);
+      }
 
-
+      // 0 se phele -1 aata hai toh we need not to worry about the calculation here
+      return ans;
+    }
+   
     int sumSubarrayMins(vector<int>& arr) {
-        const int mod = 1e9 + 7;
-        vector<int>next(arr.size() , -1);
-        vector<int>prev(arr.size() , -1);
-
-        nextSmallerElement(arr,next);
-        prevSmallerElement(arr, prev);
-
-        long long int ans = 0;
+        long long  sum = 0 ;
+        vector<int>nse = nextSmallerElement(arr);
+        vector<int>pse = prevSmallerElement(arr);
+       const long long MOD = 1000000007;
         for(int i = 0 ; i < arr.size() ; i++){
-            int nextI = (next[i] == -1) ? arr.size() : next[i];
-            int prevI = prev[i];
 
-            int left = i - prevI;
-            int right = nextI - i ;
+          // ni is next smaller element index for index ith element 
+          //pi is prev smaller element index for index ith element
+          int ni = nse[i];
+          int pi = pse[i];
 
-            // left and right are the values which show us that including this ith element how many subarrays we can make so that the ith element is the minimum element in that subarray 
+          //left_element is how much element is on the left including the ith element
+          //right_element is how much element is on the right including the ith element
+          int left_element = i - pi;
+          int right_element = ni - i;
 
-            long long int no_of_times = (left * right ) % mod;
-            long long int total = (arr[i] * no_of_times) % mod;
-            ans = (ans + total) % mod;
+          // totoal_times_element_included means how many times the element is included in the sum  
+          // ttei -> total times element included
 
+          long long  ttei = (left_element * right_element) % MOD;
+          sum += ((ttei % MOD) * (arr[i] % MOD)) % MOD;
 
         }
-
-        return ans;
-
+        sum = sum % MOD;
+        return sum;
     }
 };
