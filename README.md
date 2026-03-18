@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
 | [0485-max-consecutive-ones](https://github.com/yshydv77/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
+| [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
@@ -120,12 +121,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0155-min-stack](https://github.com/yshydv77/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/yshydv77/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 <!---LeetCode Topics End-->
