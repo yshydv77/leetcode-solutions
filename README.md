@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0807-custom-sort-string) |
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
+| [1768-merge-strings-alternately](https://github.com/yshydv77/leetcode-solutions/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Sorting
 | Problem Name | Difficulty |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [1768-merge-strings-alternately](https://github.com/yshydv77/leetcode-solutions/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
