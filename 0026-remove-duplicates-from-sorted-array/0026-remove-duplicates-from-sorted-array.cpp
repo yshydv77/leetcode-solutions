@@ -8,11 +8,14 @@ public:
         int j = 1;
         while(j < nums.size()){
           if(nums[j] == nums[j-1]){
-            j++;continue;
+            j++;
           }
+          else{
+
           i++;
           nums[i] = nums[j];
           j++;
+          }
             
         }
 
