@@ -1,46 +1,54 @@
 class Solution {
 public:
-    vector<int> maxSlidingWindow(vector<int>& arr, int k) {
-        vector<int>ans;
-        deque<int>dq;
+vector<int> maxSlidingWindow(vector<int> &nums, int k)
+{
+    if (k == 1)
+        return nums;
 
-        // first window process ->> addition , answer storing 
+    int low = 0;
+    int high = k - 1;
 
-        // addition ka logic for the first window 
-        // jisme meine ye find out kiya ki har element ko toh insert karna hi hai 
-        // and vo current element agar uske left side ke saare elements se baada aata
-        // hai toh mujhe uske left side ke sare elements ko deque se pop kardena hai 
-        for(int i = 0 ; i< k ; i++){
+    vector<int> ans;
+    deque<int> dq; // stores indices
 
-          while( !dq.empty() && arr[dq.back()]< arr[i]){
+    // Build first window
+    for (int i = 0; i <= high; i++)
+    {
+        while (!dq.empty() && nums[dq.back()] <= nums[i])
+        {
             dq.pop_back();
-          }
-          dq.push_back(i);
         }
 
-        //answer storing logic for the first window 
+        dq.push_back(i);
+    }
 
-        int element = arr[dq.front()];
-        ans.push_back(element);
+    ans.push_back(nums[dq.front()]);
 
-        // second window ki processing karni hai 
+    while (high < nums.size())
+    {
+        low++;
+        high++;
 
-        for(int i = k ;i < arr.size() ; i++){
-          //removal for the second window 
-          if(!dq.empty() && i-dq.front() >= k){
+        if (high == nums.size())
+            break;
+
+        // Remove indices that are outside the window
+        while (!dq.empty() && dq.front() < low)
+        {
             dq.pop_front();
-          }
-          //addition for the second window 
-          while( !dq.empty() && arr[dq.back()]< arr[i]){
-            dq.pop_back();
-          }
-          dq.push_back(i);
-
-          // answer storing for the second window
-          int element = arr[dq.front()];
-          ans.push_back(element);
         }
+
+        // Insert new element while maintaining decreasing order
+        while (!dq.empty() && nums[dq.back()] <= nums[high])
+        {
+            dq.pop_back();
+        }
+
+        dq.push_back(high);
+
+        ans.push_back(nums[dq.front()]);
+    }
 
     return ans;
-    }
+}
 };
