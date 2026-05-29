@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/yshydv77/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yshydv77/leetcode-solutions/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/yshydv77/leetcode-solutions/tree/main/1768-merge-strings-alternately/) | Easy |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Sorting
 | Problem Name | Difficulty |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -199,5 +202,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/yshydv77/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yshydv77/leetcode-solutions/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 <!---LeetCode Topics End-->
