@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/yshydv77/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0643-maximum-average-subarray-i](https://github.com/yshydv77/leetcode-solutions/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0706-design-hashmap](https://github.com/yshydv77/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
+| [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/yshydv77/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0567-permutation-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/main/0876-middle-of-the-linked-list/) | Easy |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/yshydv77/leetcode-solutions/tree/main/0713-subarray-product-less-than-k/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
