@@ -1,33 +1,25 @@
 class Solution {
 public:
-    void formatString(string &s , string &updatedString){
-      for(auto it : s){
-        if(isalnum(it)){
-          if(isupper(it)){
-            updatedString.push_back(tolower(it));
-          }
-          else{
-            updatedString.push_back(it);
-          }
+    string formatter(string &s){
+        string st;
+        for(int i = 0 ; i < s.size() ; i++){
+            if(isalnum(s[i])){
+                st.push_back(tolower(s[i]));
+            }
         }
-      }
-
+        return st;
     }
     bool isPalindrome(string s) {
-      string updatedString = "";
-      formatString(s, updatedString);  
-
-      int start = 0;
-      int end = updatedString.size()-1;
-
-      while(start <= end){
-        if(updatedString[start] != updatedString[end]){
-          return false;
+        string st = formatter(s);
+        string rev = st;
+        int i = 0 ;
+        int j = st.size()-1;
+        while(i<j){
+            swap(st[i] , st[j]);
+            i++;
+            j--;
         }
-        start++;
-        end--;
 
-      }
-      return true;
+        return (rev == st);
     }
 };
