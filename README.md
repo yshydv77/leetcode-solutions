@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0283-move-zeroes](https://github.com/yshydv77/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/yshydv77/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0643-maximum-average-subarray-i](https://github.com/yshydv77/leetcode-solutions/tree/main/0643-maximum-average-subarray-i/) | Easy |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0202-happy-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/yshydv77/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0443-string-compression](https://github.com/yshydv77/leetcode-solutions/tree/main/0443-string-compression/) | Medium |
 | [0567-permutation-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0567-permutation-in-string/) | Medium |
