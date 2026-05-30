@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
+| [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
