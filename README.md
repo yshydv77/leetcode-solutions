@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0088-merge-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
+| [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
