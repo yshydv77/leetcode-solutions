@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1749-maximum-absolute-sum-of-any-subarray/) | Medium |
 | [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1749-maximum-absolute-sum-of-any-subarray/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
