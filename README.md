@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
+| [2574-left-and-right-sum-differences](https://github.com/yshydv77/leetcode-solutions/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1991-find-the-middle-index-in-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
+| [2574-left-and-right-sum-differences](https://github.com/yshydv77/leetcode-solutions/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
