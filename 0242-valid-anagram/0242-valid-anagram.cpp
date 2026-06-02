@@ -1,22 +1,25 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if(t.size() > s.size()) return false;
-        vector<int>visited(26,0);
-        for(auto it : s){
-            visited[it-'a']++;
+        if(s.size() != t.size()){
+            return false;
+        }
+        vector<int>s_hashmap(26);
+        vector<int>t_hashmap(26);
+        for(int i = 0 ; i < s.size() ; i++){
+            s_hashmap[s[i]-'a']++;
         }
 
-        for(auto it : t){
-            visited[it-'a']--;
+        for(int i = 0 ; i < t.size() ; i++){
+            t_hashmap[t[i]-'a']++;
         }
-        for(auto it : visited){
-            if(it > 0){
+
+        for(int i = 0 ; i < 26;i++){
+            if(s_hashmap[i] != t_hashmap[i]){
                 return false;
             }
         }
 
-        // agar mein 18 line par agaaya iska mtlb mere valid anagram hai
         return true;
     }
 };
