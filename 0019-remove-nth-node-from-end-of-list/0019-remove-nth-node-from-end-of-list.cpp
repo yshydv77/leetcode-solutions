@@ -8,66 +8,45 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        if(head->next == nullptr && n == 1){
+            return nullptr;
+        }
+        int sz = 0 ;
+
+        ListNode* temp = head;
+        while(temp!=nullptr){
+            sz++;
+            temp=temp->next;
+        }
+        temp =  head;
 
 
-      // using the concept of dummy node
-      auto dummy = new ListNode(-1);
-      dummy->next = head;
-      auto it = head;
-      auto prev = dummy;
-      auto curr = head;
-
-      int len = 0 ;
-      while(it != NULL){
-        len ++;
-        it = it->next;
-      }
-
-      int i = 0 ;
-      while(i < (len-n)){
-        prev = prev->next;
-        curr = curr->next;
-        i++;
-      }
-
-
-      prev->next = curr->next;
-      curr->next = NULL;
-      delete(curr);
-
-      return dummy->next;
-
-
-
-      // if(head->next == 0 && n == 1){return 0;}
-
-        // int len = 0;
-        // auto it = head;
-        // while(it){
-        //     len++;
-        //     it = it->next;
-        // }
-
-        // auto pos = len - n;
-        // it = head;
-        // for(int i = 0 ; i < pos-1 ; i++){
-        //     it = it->next;
-
-        // }
+        int pos = sz - n;
         // if(pos == 0){
+        //     ListNode* t = head;
         //     head = head->next;
-        //     it->next = 0;
-        //     delete it;
-        //     return head;
+        //     t->next = nullptr;
         // }
-        // auto current = (it->next);
-        // auto forward = current->next;
-        // it->next = forward;
-        // current->next = 0;
-        // delete(current);
-        // return head;
+        for(int i = 0 ; i < pos-1; i++){
+            temp=temp->next;
+        }
+
+        if(temp->next->next == nullptr && pos != 0){
+            //last node ko delete karna tha
+            temp->next = nullptr;
+        }
+        else if(pos != 0) {
+            temp->next = temp->next->next;
+        }
+        else{
+            ListNode* t = head;
+            head = head->next;
+            t->next = nullptr;
+        }
+        return head;
     }
 };
