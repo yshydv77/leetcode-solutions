@@ -8,30 +8,27 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+const auto null = nullptr;
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        if(head == 0 || head->next == 0){
-            return 0;
+        if(head == null || head->next == null){
+            return null;
         }
-        if(head->next->next == 0){
-            head->next = 0;
-            return head;
-        }
-        auto slow = head;
-        auto fast = head;
-        while(fast && fast->next){
-            // fast and fast->next if they are non null then it is true oterwise false
-            slow = slow->next;
+        ListNode* slow =  head;
+        ListNode* fast = head;
+        ListNode* slow_prev = head;
+        while(fast != null && fast->next != null){
+            slow_prev = slow;
+            slow =  slow->next;
             fast = fast->next->next;
-        } 
-        
-        auto forward = slow->next;
-        slow->val = (forward->val);
-        slow->next = forward->next;
-        forward->next = 0;
-        delete forward;
-        return head;
 
+        }
+
+        slow_prev->next = slow->next;
+        slow->next = null;
+        delete slow;
+        return head;
     }
 };
