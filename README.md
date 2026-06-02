@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/yshydv77/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0009-palindrome-number/) | Easy |
 | [0202-happy-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
 ## Enumeration
