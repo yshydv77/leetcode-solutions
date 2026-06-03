@@ -10,27 +10,40 @@
  */
 class Solution {
 public:
-    ListNode* deleteDuplicates(ListNode* head) {
-        if(head == NULL || head->next == NULL){
-            // no node or either 1 node
-            return head;
-        }
-        ListNode* previous = head;
-        ListNode* current = head->next;
-      
-        while(current != NULL){
-            if(current->val != previous->val){
-                previous = previous->next;
-                current = current->next;
-            }
-            else{
-               previous->next = current->next;
-               current->next = NULL;
-               delete(current);
-               current = previous->next;
-            }
-        }
-        
+ListNode *deleteDuplicates(ListNode *head)
+{
+    if(head == nullptr || head->next == nullptr){
         return head;
     }
+    ListNode* i = head;
+    ListNode* j = head->next;
+
+    while(j != nullptr && j->next != nullptr){
+        
+        while(j!= nullptr && j->val == i->val){
+            
+            j = j->next;
+
+        }
+        // j->val != i->val
+        // mtlb bich mein repeated elements the
+        i->next = j;
+        i = j;
+        if(j!=nullptr){
+            j = j->next;
+        }
+            
+
+    }
+
+    // last node hogi 
+    if(j!= nullptr && j->next == nullptr){
+        if(i->val == j->val){
+            i->next = nullptr;
+        }
+
+    }
+    return head;
+
+}
 };
