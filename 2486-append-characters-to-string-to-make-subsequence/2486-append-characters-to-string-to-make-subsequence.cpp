@@ -1,16 +1,24 @@
 class Solution {
 public:
     int appendCharacters(string s, string t) {
-        int i = 0 ;
-        int j = 0;
-
-        while(i < s.size() && j < t.size()){
-          if(s[i] == t[j]){
-            j++;
-          }
-          i++;
+        int low = 0 ;
+        int high = 0 ;
+        while(low < s.size() && high < t.size()){
+            if(s[low] == t[high]){
+                low++;
+                high++;
+            }
+            else{
+               low++;
+            }
         }
 
-        return t.size() - j;
+        int ans = t.size() - high;
+        if(t.empty() == true){ 
+            // vo already ek subsequence tha
+            return 0;
+        }
+        return ans;
+
     }
 };
