@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/yshydv77/leetcode-solutions/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [1991-find-the-middle-index-in-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2574-left-and-right-sum-differences](https://github.com/yshydv77/leetcode-solutions/tree/main/2574-left-and-right-sum-differences/) | Easy |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1310-xor-queries-of-a-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1991-find-the-middle-index-in-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1991-find-the-middle-index-in-array/) | Easy |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2574-left-and-right-sum-differences](https://github.com/yshydv77/leetcode-solutions/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Greedy
@@ -146,12 +149,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -216,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/yshydv77/leetcode-solutions/tree/main/1768-merge-strings-alternately/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Divide and Conquer
