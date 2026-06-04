@@ -10,33 +10,46 @@
  */
 class Solution {
 public:
-    ListNode* oddEvenList(ListNode* head) {
-        if(head == NULL || head->next == NULL){
-            return head;
+ListNode *oddEvenList(ListNode *head)
+{
+    if (head == nullptr || head->next == nullptr)
+    {
+        return head;
+    }
+    int index = 1;
+    ListNode *even = nullptr;
+    ListNode *odd = nullptr;
+    ListNode* e = even;
+    ListNode* o = odd;
+    ListNode *t = odd;
+    ListNode *temp = head;
+    while (temp != nullptr)
+    {
+        ListNode* node = new ListNode(temp->val);
+        if (even == nullptr && index % 2 == 0)
+        {
+            even = node;
+            e = even;
         }
-        auto it = head;
-        auto odd = new ListNode(-1);
-        auto itOdd = odd;
-        auto even = new ListNode(-1);
-        auto itEven = even;
-        auto position = 1;
-        while(it){
-           
-            if(position & 1){//odd 
-                itOdd->next = it;
-                itOdd = itOdd->next;
-            }
-            else{
-                itEven->next = it;
-                itEven = itEven->next;
-            }   
-            it = it->next;
-            position++;
+        else if (odd == nullptr && index % 2 != 0)
+        {
+            odd = node;
+            o = odd;
+        }
+        else if(even != nullptr && index % 2 == 0){
+            e->next = node;
+            e = e->next;
+        }
+        else if(odd != nullptr && index % 2 != 0 ){
+            o->next = node;
+            o = o->next;
         }
 
-        itOdd->next = even->next;
-        itEven->next = 0;
-        return odd->next;
+        index++;
+        temp = temp->next;
 
     }
+    o->next = even;
+    return odd;
+}
 };
