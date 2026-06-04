@@ -10,22 +10,27 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        if(head == NULL || head->next == NULL){
-            return head;
-        }
-       else{
-            ListNode* previous = NULL;
-            ListNode* current = head;
-            
-            while(current != NULL){
-                ListNode* forward = current->next;
-                current->next = previous;
-                previous = current;
-                current = forward;
-            }
-            head =  previous;
-       }
-       return head;
+ListNode *reverseList(ListNode *head)
+{
+    if(head == nullptr || head->next == nullptr){
+        return head;
     }
+    ListNode* slow = head;
+    ListNode* fast = nullptr;
+    while (slow!=nullptr)
+    {
+        ListNode* node = new ListNode(slow->val);
+        if(fast == nullptr){
+            fast = node;
+        }
+        else{
+            node->next = fast;
+            fast = node;
+        }
+        slow = slow->next;
+    }
+
+    return fast;
+    
+}
 };
