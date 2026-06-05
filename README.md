@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
+| [3169-count-days-without-meetings](https://github.com/yshydv77/leetcode-solutions/tree/main/3169-count-days-without-meetings/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2574-left-and-right-sum-differences](https://github.com/yshydv77/leetcode-solutions/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
+| [3169-count-days-without-meetings](https://github.com/yshydv77/leetcode-solutions/tree/main/3169-count-days-without-meetings/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
