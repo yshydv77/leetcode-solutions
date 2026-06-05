@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0807-custom-sort-string) |
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [0926-find-and-replace-pattern](https://github.com/yshydv77/leetcode-solutions/tree/master/0926-find-and-replace-pattern) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/yshydv77/leetcode-solutions/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/yshydv77/leetcode-solutions/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
