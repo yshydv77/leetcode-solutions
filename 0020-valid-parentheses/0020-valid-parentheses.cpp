@@ -1,25 +1,36 @@
 class Solution {
 public:
-    bool check_brackets(char s , char e){
-      if((s == '(' && e == ')') || (s=='{' && e=='}') || (s=='[' && e==']'))
+bool match(char a , char b){
+    if((a == '(' && b == ')') ||( a == '{' && b == '}') || (a == '[' &&  b ==  ']') ){
         return true;
-      else 
-        return false;
     }
-    bool isValid(string s) {
-        stack<char>st;
-        for (auto it : s){
-       
-          if(it == '(' || it == '{' || it == '[')
-            st.push(it);
-          else{
-            if(!st.empty() && check_brackets(st.top() , it))
-              st.pop();
-            else
-              return false;
-          }
+    return false;
+}
+bool isValid(string s) {
+    // stack ka question isliye hai because meko recent most element ka use karna hai 
+    stack<char>st;
+    for(int i = 0 ; i < s.size() ; i++){
+        if(s[i] == '(' || s[i] == '[' || s[i] == '{'){
+            st.push(s[i]);
         }
-
-        return st.empty();
+        else {
+            // iska matlab ye hai ki yaha par closing bracket aagaya yaa phir mera stack hi empty hai 
+            if(st.empty()){
+                return false;
+            }
+            else{
+                // stack is not empty now i have to check wheter the stack topmost bracket mathc the current bracket or not 
+                if(match(st.top() , s[i]) == false){
+                   return false;
+                }
+                else{
+                    st.pop();
+                }
+                
+            }
+        }
     }
+
+    return st.empty();
+}
 };
