@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0706-design-hashmap](https://github.com/yshydv77/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/yshydv77/leetcode-solutions/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0724-find-pivot-index/) | Easy |
+| [0739-daily-temperatures](https://github.com/yshydv77/leetcode-solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/yshydv77/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/yshydv77/leetcode-solutions/tree/main/0905-sort-array-by-parity/) | Easy |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0155-min-stack](https://github.com/yshydv77/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/yshydv77/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0739-daily-temperatures](https://github.com/yshydv77/leetcode-solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/yshydv77/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0739-daily-temperatures](https://github.com/yshydv77/leetcode-solutions/tree/main/0739-daily-temperatures/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Design
 | Problem Name | Difficulty |
