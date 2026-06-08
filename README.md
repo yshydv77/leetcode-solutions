@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/1876-substrings-of-size-three-with-distinct-characters/) | Easy |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/1209-remove-all-adjacent-duplicates-in-string-ii/) | Medium |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/yshydv77/leetcode-solutions/tree/main/0844-backspace-string-compare/) | Easy |
 | [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
