@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0009-palindrome-number/) | Easy |
 | [0202-happy-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
+| [0367-valid-perfect-square](https://github.com/yshydv77/leetcode-solutions/tree/main/0367-valid-perfect-square/) | Easy |
 | [3945-digit-frequency-score](https://github.com/yshydv77/leetcode-solutions/tree/main/3945-digit-frequency-score/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0278-first-bad-version](https://github.com/yshydv77/leetcode-solutions/tree/main/0278-first-bad-version/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0367-valid-perfect-square](https://github.com/yshydv77/leetcode-solutions/tree/main/0367-valid-perfect-square/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/yshydv77/leetcode-solutions/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/yshydv77/leetcode-solutions/tree/main/0704-binary-search/) | Easy |
