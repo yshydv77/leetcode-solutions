@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/yshydv77/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
+| [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0283-move-zeroes](https://github.com/yshydv77/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -436,4 +438,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0278-first-bad-version](https://github.com/yshydv77/leetcode-solutions/tree/main/0278-first-bad-version/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/yshydv77/leetcode-solutions/tree/main/0374-guess-number-higher-or-lower/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 <!---LeetCode Topics End-->
