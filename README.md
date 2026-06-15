@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/yshydv77/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/yshydv77/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
@@ -286,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
@@ -437,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Rolling Hash
 | Problem Name | Difficulty |
