@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0986-interval-list-intersections](https://github.com/yshydv77/leetcode-solutions/tree/main/0986-interval-list-intersections/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/yshydv77/leetcode-solutions/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/yshydv77/leetcode-solutions/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1310-xor-queries-of-a-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/yshydv77/leetcode-solutions/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/0744-find-smallest-letter-greater-than-target/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/yshydv77/leetcode-solutions/tree/main/0875-koko-eating-bananas/) | Medium |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/yshydv77/leetcode-solutions/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
