@@ -1,44 +1,28 @@
 class Solution {
 public:
-bool searchMatrix(vector<vector<int>>& matrix, int target) {
-  int n = matrix.size();
-  int row = n;
-  int col = matrix[0].size();
+bool searchMatrix(vector<vector<int>>&matrix , int target){
+  int total_rows = matrix.size();
+  int total_cols = matrix[0].size();
   int low = 0 ;
-  int high = row-1;
-  while (low <= high)
+  int high = (total_rows * total_cols)-1;
+  while (low<=high)
   {
-    int guess = low + (high - low)/2;
-    if(target >= matrix[guess][0] && target <= matrix[guess][col-1]){
-      // isme element lie karta hia
-      int l = 0;
-      int h = col-1;
-      while (l <= h)
-      {
-        int g = l + (h-l)/2;
-        int ele = matrix[guess][g];
-        if(ele == target){
-          return true;
-        }
-        else if(ele < target){
-          l = g+1;
-        }
-        else{
-          h = g-1;
-        }
-      }
-      return false;
-      
+    int guess = low +(high-low)/2;
+    int r = (guess / total_cols) ;
+    int c = (guess % total_cols);
+    int ele = matrix[r][c];
+    if(ele == target){
+      return true;
     }
-    else if(target < matrix[guess][0]){
-      high = guess-1;
-    }
-    else{
+    else if(ele < target){
       low = guess+1;
     }
+    else{
+      high = guess-1;
+    }
   }
-
   return false;
   
 }
+
 };
