@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/yshydv77/leetcode-solutions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2073-time-needed-to-buy-tickets](https://github.com/yshydv77/leetcode-solutions/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/yshydv77/leetcode-solutions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
