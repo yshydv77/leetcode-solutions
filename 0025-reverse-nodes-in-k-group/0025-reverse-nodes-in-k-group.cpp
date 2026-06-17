@@ -10,34 +10,61 @@
  */
 class Solution {
 public:
+  void reverseLL(ListNode* head , int k ){
+    ListNode* curr = head;
+    ListNode* prev = nullptr;
+    while(k--){
+      ListNode* next = curr->next;
+      curr->next = prev;
+      prev = curr;
+      curr = next;
+    }
+    return;
+  }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        int count = 0;
-        ListNode* temp = head;
-        while(temp != NULL && count < k){
-            temp = temp->next;
-            count++;
-        }
-        if(count == k){
+         if (head == nullptr || head->next == nullptr) {
+    return head;
+  }
 
-            ListNode* previous = NULL;
-            ListNode* current = head;
-            ListNode* forward = NULL;
-            // reverse karva sakte hai 
-            int i = 0;
-            while(i<k){
-                forward = current->next;
-                current->next = previous;
-                previous = current;
-                current = forward;
-                i++;
-            }
-            ListNode* recKaHead = reverseKGroup(forward , k);
-            head->next = recKaHead;
-            return previous;
-        }
-        else{   
-        return head;
-        }
-        return nullptr;
+  ListNode* prev_left = nullptr;
+  ListNode* left = head;
+  ListNode* res = nullptr;
+
+
+  while (true) {
+    // mujhe pair kitne hai ye nahi pata hai isliye liye infinite while loop use kar rahe hai 
+    ListNode* right = left;
+    for (int i = 0; i < k - 1; i++) {
+      if (right == nullptr) {
+        break;
+      }
+      right = right->next;
+    }
+
+    if(right != nullptr){
+      ListNode* next_left = right->next;
+      reverseLL(left , k );
+      if(prev_left != nullptr){
+        prev_left->next = right;
+      }
+      prev_left = left;
+      if(res == nullptr){
+        res = right;
+      }
+
+      left = next_left;
+    } 
+    else{
+      if(prev_left != nullptr){
+        prev_left ->next = left;
+      }
+      if(res == nullptr){
+        res = left;
+      }
+      break;
+    }
+  }
+
+  return res;
     }
 };
