@@ -7,16 +7,54 @@
  * };
  */
 class Solution {
+  using ll = long long;
 public:
-    ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
-    auto itA = headA;
-    auto itB = headB;
-    
-    while (itA != itB) {
-        itA = (itA == nullptr) ? headB : itA->next;
-        itB = (itB == nullptr) ? headA : itB->next;
+ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
+  ListNode* tempA = headA;
+  ListNode* tempB = headB;
+  ll m = 0 ;
+  ll n = 0;
+  while (tempA != nullptr)
+  {
+    m++;
+    tempA = tempA->next;
+  }
+  while (tempB != nullptr)
+  {
+    n++;
+    tempB = tempB->next;
+  }
+  tempA = headA;
+  tempB = headB;
+  ll diff = abs(m-n);
+  if(m > n){
+    while (diff--)
+    {
+      tempA = tempA->next;
     }
-    return itA;  // could be intersection node or nullptr if no intersection
-}
+    
+  }
+  else if(n > m){
+    while (diff--)
+    {
+      tempB = tempB->next;
+    }
+    
+  }
 
+  while (tempA != nullptr && tempB != nullptr)
+  {
+    if(tempA == tempB){
+      return tempA;
+    }
+    tempA = tempA->next;
+    tempB = tempB->next;
+  }
+
+  return nullptr;
+  
+  
+  
+
+}
 };
