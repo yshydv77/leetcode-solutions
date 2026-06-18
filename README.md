@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/yshydv77/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0202-happy-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
+| [0229-majority-element-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/yshydv77/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0383-ransom-note](https://github.com/yshydv77/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
+| [0229-majority-element-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/yshydv77/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/yshydv77/leetcode-solutions/tree/main/0217-contains-duplicate/) | Easy |
+| [0229-majority-element-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
@@ -219,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0383-ransom-note](https://github.com/yshydv77/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0387-first-unique-character-in-a-string/) | Easy |
