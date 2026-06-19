@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0706-design-hashmap](https://github.com/yshydv77/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0807-custom-sort-string) |
 | [0904-fruit-into-baskets](https://github.com/yshydv77/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0541-reverse-string-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0541-reverse-string-ii/) | Easy |
 | [0567-permutation-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0796-rotate-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
 | [0807-custom-sort-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0807-custom-sort-string) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0807-custom-sort-string) |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0409-longest-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0409-longest-palindrome/) | Easy |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
@@ -228,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yshydv77/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/yshydv77/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
@@ -241,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
+| [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/yshydv77/leetcode-solutions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1189-maximum-number-of-balloons](https://github.com/yshydv77/leetcode-solutions/tree/main/1189-maximum-number-of-balloons/) | Easy |
