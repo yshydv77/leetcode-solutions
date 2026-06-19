@@ -4,45 +4,51 @@ struct cmp {
   bool operator()(pair<int, int>& a, pair<int, int>& b) {
     // on what basis mujhe elements sort karne hai
     // frequency ke basis par element ko sort karna hai
-    if (a.second != b.second) {
-      return a.second > b.second;
+    if (a.first != b.first) {
+      return a.first > b.first;
     }
-    return a.first > b.first;
+    return a.second > b.second;
   }
 };
 // O(n) + N*O(logN) + O(logN) = O(NlogN)
 vector<int> topKFrequent(vector<int>& nums, int k) {
   priority_queue<pair<int, int>, vector<pair<int, int>>, cmp>
       pq;  // min heap priority queue
+  
+  
   unordered_map<int, int> freq;
   for (auto i = 0; i < nums.size(); i++) {
     freq[nums[i]]++;
   }
-  vector<pair<int, int>> v(freq.begin(), freq.end());
-
-  for(int i = 0 ; i < k ; i++){
-    auto [freq , ele] = v[i];
-    pq.push({freq,ele});
-  }
-
-  for (int i = k; i < v.size(); i++) {
-    pair<int, int> ele = {v[i].first, v[i].second};
-    if (ele.second < pq.top().second) {
-      continue;
-    } else {
-      pq.pop();
-      pq.push(ele);
+  
+  for (auto &&it : freq)
+  {
+    pair<int,int>p = {it.second , it.first};
+    if(pq.size() < k ){
+      pq.push(p);
+    }
+    else{
+      if(p.first < pq.top().first){
+        continue;
+      }
+      else{
+        pq.pop();
+        pq.push(p);
+      }
     }
   }
+  
 
   vector<int> ans;
   while (pq.empty() == false) {
-    ans.emplace_back(pq.top().first);
+    ans.emplace_back(pq.top().second);
     pq.pop();
   }
 
   return ans;
 }
+
+
 
 // vector<int> topKFrequent(vector<int>& nums, int k) {
 //   // space complexity :- O()
