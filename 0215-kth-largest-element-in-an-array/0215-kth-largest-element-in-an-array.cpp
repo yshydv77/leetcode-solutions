@@ -5,19 +5,25 @@ public:
  priority_queue<int,vector<int>, greater<int>>pq;
     // max heap 
     
-    for (int i = 0 ;i < k ;i++)
+    for (int i = 0 ;i < nums.size() ;i++)
     { 
-      pq.emplace(nums[i]);
-    }
-    for(int i = k ;i < nums.size() ; i++){
-      if(pq.top() < nums[i]){
-        pq.pop();
+      if(i<k){
         pq.push(nums[i]);
       }
-      else if(pq.top() >= nums[i]){
-        continue;
+      else{
+        pq.push(nums[i]);
+        pq.pop();
       }
     }
+    // for(int i = k ;i < nums.size() ; i++){
+    //   if(pq.top() < nums[i]){
+    //     pq.pop();
+    //     pq.push(nums[i]);
+    //   }
+    //   else if(pq.top() >= nums[i]){
+    //     continue;
+    //   }
+    // }
     
 
     return pq.top();
