@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0502-ipo](https://github.com/yshydv77/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 | [0658-find-k-closest-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/yshydv77/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/yshydv77/leetcode-solutions/tree/main/0496-next-greater-element-i/) | Easy |
+| [0502-ipo](https://github.com/yshydv77/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 | [0503-next-greater-element-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0525-contiguous-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0525-contiguous-array/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0409-longest-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0409-longest-palindrome/) | Easy |
+| [0502-ipo](https://github.com/yshydv77/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 | [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/yshydv77/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/yshydv77/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0502-ipo](https://github.com/yshydv77/leetcode-solutions/tree/main/0502-ipo/) | Hard |
 | [0658-find-k-closest-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0692-top-k-frequent-words](https://github.com/yshydv77/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yshydv77/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
