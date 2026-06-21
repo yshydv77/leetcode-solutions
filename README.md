@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/yshydv77/leetcode-solutions/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/yshydv77/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [1833-maximum-ice-cream-bars](https://github.com/yshydv77/leetcode-solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 | [3169-count-days-without-meetings](https://github.com/yshydv77/leetcode-solutions/tree/main/3169-count-days-without-meetings/) | Medium |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/yshydv77/leetcode-solutions/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1749-maximum-absolute-sum-of-any-subarray/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/yshydv77/leetcode-solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1929-concatenation-of-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [1991-find-the-middle-index-in-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/yshydv77/leetcode-solutions/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0767-reorganize-string/) | Medium |
 | [0778-reorganize-string](https://github.com/yshydv77/leetcode-solutions/tree/master/0778-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/yshydv77/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/yshydv77/leetcode-solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Heap (Priority Queue)
@@ -518,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0274-h-index](https://github.com/yshydv77/leetcode-solutions/tree/main/0274-h-index/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/yshydv77/leetcode-solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
