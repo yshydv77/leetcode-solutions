@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/yshydv77/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/yshydv77/leetcode-solutions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
+| [0151-reverse-words-in-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0187-repeated-dna-sequences](https://github.com/yshydv77/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0242-valid-anagram](https://github.com/yshydv77/leetcode-solutions/tree/main/0242-valid-anagram/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0125-valid-palindrome/) | Easy |
 | [0141-linked-list-cycle](https://github.com/yshydv77/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yshydv77/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0151-reverse-words-in-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/yshydv77/leetcode-solutions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
