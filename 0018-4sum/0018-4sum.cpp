@@ -18,16 +18,16 @@ public:
                 }
 
 
-                long long new_target = (long long)target - a[i] - a[j];
+              
                 long long  low = j+1;
                 long long high = n-1;
 
                 while(low < high){
-                    long long  s = a[low]+ a[high];
-                    if(s < new_target){
+                    long long  s = (long long) a[i] + a[j] + a[low]+ a[high];
+                    if(s < target){
                         low++;
                     }
-                    else if(s > new_target){
+                    else if(s > target){
                         high--;
                     }
                     else{
