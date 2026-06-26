@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/yshydv77/leetcode-solutions/tree/main/2696-minimum-string-length-after-removing-substrings/) | Easy |
+| [2938-separate-black-and-white-balls](https://github.com/yshydv77/leetcode-solutions/tree/main/2938-separate-black-and-white-balls/) | Medium |
 | [3612-process-string-with-special-operations-i](https://github.com/yshydv77/leetcode-solutions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/yshydv77/leetcode-solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
+| [2938-separate-black-and-white-balls](https://github.com/yshydv77/leetcode-solutions/tree/main/2938-separate-black-and-white-balls/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -340,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/yshydv77/leetcode-solutions/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
+| [2938-separate-black-and-white-balls](https://github.com/yshydv77/leetcode-solutions/tree/main/2938-separate-black-and-white-balls/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
