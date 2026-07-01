@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0383-ransom-note](https://github.com/yshydv77/leetcode-solutions/tree/main/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0392-is-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0394-decode-string/) | Medium |
 | [0409-longest-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0409-longest-palindrome/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/yshydv77/leetcode-solutions/tree/main/0424-longest-repeating-character-replacement/) | Medium |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/yshydv77/leetcode-solutions/tree/main/0349-intersection-of-two-arrays/) | Easy |
+| [0392-is-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0443-string-compression](https://github.com/yshydv77/leetcode-solutions/tree/main/0443-string-compression/) | Medium |
 | [0541-reverse-string-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0541-reverse-string-ii/) | Easy |
 | [0567-permutation-in-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0567-permutation-in-string/) | Medium |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
+| [0392-is-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0918-maximum-sum-circular-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0918-maximum-sum-circular-subarray/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/yshydv77/leetcode-solutions/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
