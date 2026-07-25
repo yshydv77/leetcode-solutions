@@ -519,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0187-repeated-dna-sequences](https://github.com/yshydv77/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0706-design-hashmap](https://github.com/yshydv77/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Sweep Line
 | Problem Name | Difficulty |
@@ -563,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0796-rotate-string](https://github.com/yshydv77/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
@@ -577,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/yshydv77/leetcode-solutions/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/yshydv77/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
+| [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yshydv77/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 ## Binary Search Tree
@@ -596,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/yshydv77/leetcode-solutions/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/yshydv77/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
+| [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yshydv77/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 ## Trie
@@ -620,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/yshydv77/leetcode-solutions/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/yshydv77/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
+| [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
