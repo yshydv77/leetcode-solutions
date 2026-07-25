@@ -17,7 +17,9 @@ void fun(TreeNode* root){
   if(root == nullptr){
     return ;
   }
-
+  if(root->left == nullptr && root->right == nullptr){
+    return ;
+  }
   swap(root->left , root->right);
   fun(root->left);
   fun(root->right);
