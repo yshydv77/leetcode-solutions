@@ -11,42 +11,22 @@
  */
 class Solution {
 public:
-
-void fun(TreeNode* node1 , TreeNode* node2 , bool& ans){
-
-  // false do case mein hi return karna hai 
-  // 1. node ki values match nahi kar rahi hai
-  // 2. node ki jagah null hai and ek node mein value hai 
-
-  if(node1 == nullptr && node2 == nullptr){
-    return ;
-  }
-
-  if(node1 == nullptr && node2 != nullptr){
-    ans = false;
-    return ;
-  }
-
-  if(node1 != nullptr && node2 == nullptr){
-    ans = false;
-    return ;
-  }
-
-  int v1 = node1->val;
-  int v2 = node2->val;
-  if(v1 != v2){
-    ans = false;
-    return ; 
-  }
-
-  fun(node1->left , node2->left , ans);
-  fun(node1->right , node2->right , ans);
-
-}
 bool isSameTree(TreeNode *p, TreeNode *q)
 {
-  bool ans = true;
-  fun(p,q , ans);
-  return ans;
+  if(p == nullptr && q == nullptr){
+    return true;
+  }
+  if(p == nullptr || q == nullptr){
+    return false;
+  }
+
+  if(p->val != q->val){
+    return false;
+  }
+
+  bool r1 = isSameTree(p->left , q->left);
+  bool r2 = isSameTree(p->right , q->right);
+  return r1 && r2;
 }
+
 };
