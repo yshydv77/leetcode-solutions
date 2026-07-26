@@ -22,18 +22,16 @@ TreeNode *searchBST(TreeNode *root, int val)
     return root;
   }
 
-  if (root->val < val)
+  else if (root->val < val)
   {
     // val badi side par hai
     // matlab right side par hai
     return searchBST(root->right, val);
   }
-
-  if (root->val > val)
+  else
   {
     // val choti side par present hai
     return  searchBST(root->left, val);
   }
-  return nullptr;
 }
 };
