@@ -11,29 +11,34 @@
  */
 class Solution {
 public:
-void inorder(TreeNode* root , vector<int>&in){
-  if(root == nullptr){
-    return ;
-  }
-  inorder(root->left , in);
-  in.push_back(root->val);
-  inorder(root->right , in);
-}
-bool isValidBST(TreeNode *root)
-{
-  if(root == nullptr || (root->left == nullptr && root->right == nullptr)){
-    return true;
-  }
-  vector<int>in;
-  inorder(root,in);
-  bool ans = true;
-  for(int i = 1 ; i < in.size() ; i++){
-    if(in[i-1] >= in[i]){
-      return false;
+    bool ans = true ;
+    TreeNode* prev = nullptr;
+    void fun(TreeNode* root ){
+        if(root == nullptr){
+            return ;
+        }
+
+        fun(root->left );
+
+        if(prev == nullptr){
+            prev = root;
+        }
+        else {
+            if(prev->val >= root->val){
+                ans = false;
+            }
+            prev = root;
+        }
+
+        fun(root->right);
+
     }
-  }
+    bool isValidBST(TreeNode* root) {
+        if(root == nullptr || (root->left == nullptr && root->right == nullptr)){
+            return true;
+        }
 
-  return true;
-}
-
+        fun(root);
+        return ans;
+    }
 };
