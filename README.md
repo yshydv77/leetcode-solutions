@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yshydv77/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
+| [0200-number-of-islands](https://github.com/yshydv77/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0204-count-primes](https://github.com/yshydv77/leetcode-solutions/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -556,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/yshydv77/leetcode-solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0200-number-of-islands](https://github.com/yshydv77/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
@@ -664,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/yshydv77/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/yshydv77/leetcode-solutions/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/yshydv77/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0200-number-of-islands](https://github.com/yshydv77/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0226-invert-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -683,9 +686,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0112-path-sum/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/yshydv77/leetcode-solutions/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0200-number-of-islands](https://github.com/yshydv77/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0226-invert-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0226-invert-binary-tree/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yshydv77/leetcode-solutions/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0958-check-completeness-of-a-binary-tree/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/yshydv77/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
