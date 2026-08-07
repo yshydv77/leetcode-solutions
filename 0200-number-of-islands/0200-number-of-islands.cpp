@@ -24,6 +24,8 @@ void dfs(vector<vector<char>> &grid, int totalRows, int totalCols, int i, int j,
     }
 
   }
+
+  return ;
 }
 int numIslands(vector<vector<char>> &grid)
 {
