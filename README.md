@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/yshydv77/leetcode-solutions/tree/main/0041-first-missing-positive/) | Hard |
 | [0049-group-anagrams](https://github.com/yshydv77/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/yshydv77/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0057-insert-interval](https://github.com/yshydv77/leetcode-solutions/tree/main/0057-insert-interval/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/yshydv77/leetcode-solutions/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0075-sort-colors](https://github.com/yshydv77/leetcode-solutions/tree/master/0075-sort-colors) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0011-container-with-most-water/) | Medium |
+| [0055-jump-game](https://github.com/yshydv77/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0409-longest-palindrome](https://github.com/yshydv77/leetcode-solutions/tree/main/0409-longest-palindrome/) | Easy |
 | [0455-assign-cookies](https://github.com/yshydv77/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0502-ipo](https://github.com/yshydv77/leetcode-solutions/tree/main/0502-ipo/) | Hard |
@@ -450,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/yshydv77/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/yshydv77/leetcode-solutions/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/yshydv77/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
