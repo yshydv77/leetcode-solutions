@@ -1,22 +1,28 @@
 class Solution {
 public:
-    int minSubArrayLen(int target, vector<int> &nums)
-{
-    // array subarray min length subarray whose sum>= target
-    int low = 0;
-    int csum = 0;
-    int min_len = INT_MAX;
-    for(int high = 0 ; high < nums.size() ; high++){
-        csum += nums[high];
-        while(csum >= target){
-            int len = high-low+1;
-            min_len = min(min_len , len);
+int minSubArrayLen(int target, vector<int>& nums) {
+  // array subarray min len sum greater than target
+  // sliding window ka question hoga length dynamic in nature hai 
+  // variable sized sliding window ka question hai 
+  int n = nums.size();
+  
+  int low = 0 ;
+  int high = 0;
+  int sum = 0;
+  int ans = INT_MAX;
 
-            csum -=nums[low ];
-            low++;
-        }
+
+  for(high ; high < n ; high++){
+    sum +=(nums[high]);
+    while(sum >= target){
+      int siz = high - low +1;
+      ans = min(ans,siz);
+      sum-=nums[low];
+      low++;
     }
 
-    return (min_len == INT_MAX ? 0 : min_len) ;
+  }
+
+  return (ans == INT_MAX)?0:ans;
 }
 };
