@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1991-find-the-middle-index-in-array](https://github.com/yshydv77/leetcode-solutions/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/yshydv77/leetcode-solutions/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/yshydv77/leetcode-solutions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+| [2348-number-of-zero-filled-subarrays](https://github.com/yshydv77/leetcode-solutions/tree/main/2348-number-of-zero-filled-subarrays/) | Medium |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/yshydv77/leetcode-solutions/tree/main/2406-divide-intervals-into-minimum-number-of-groups/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/yshydv77/leetcode-solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/yshydv77/leetcode-solutions/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/yshydv77/leetcode-solutions/tree/main/0367-valid-perfect-square/) | Easy |
 | [0509-fibonacci-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/yshydv77/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [2348-number-of-zero-filled-subarrays](https://github.com/yshydv77/leetcode-solutions/tree/main/2348-number-of-zero-filled-subarrays/) | Medium |
 | [3945-digit-frequency-score](https://github.com/yshydv77/leetcode-solutions/tree/main/3945-digit-frequency-score/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
