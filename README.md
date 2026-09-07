@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/yshydv77/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0190-reverse-bits](https://github.com/yshydv77/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0338-counting-bits](https://github.com/yshydv77/leetcode-solutions/tree/main/0338-counting-bits/) | Easy |
 | [1310-xor-queries-of-a-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/yshydv77/leetcode-solutions/tree/master/0169-majority-element) |
+| [0190-reverse-bits](https://github.com/yshydv77/leetcode-solutions/tree/main/0190-reverse-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/yshydv77/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
