@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/yshydv77/leetcode-solutions/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/yshydv77/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0338-counting-bits](https://github.com/yshydv77/leetcode-solutions/tree/main/0338-counting-bits/) | Easy |
 | [1310-xor-queries-of-a-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/1310-xor-queries-of-a-subarray/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/yshydv77/leetcode-solutions/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0338-counting-bits](https://github.com/yshydv77/leetcode-solutions/tree/main/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/yshydv77/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0509-fibonacci-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/yshydv77/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
