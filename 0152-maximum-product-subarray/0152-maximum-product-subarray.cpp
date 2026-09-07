@@ -1,19 +1,19 @@
 class Solution {
 public:
-    int maxProduct(vector<int>& nums) {
-        int prevMaxEnding = nums[0];
-        int prevMinEnding = nums[0];
-        int ans = nums[0];
-
-        for(int i = 1 ; i < nums.size() ; i++){
-            int newMaxEnding = max({nums[i] , prevMaxEnding * nums[i] , prevMinEnding * nums[i]});
-            int newMinEnding = min({nums[i] , prevMaxEnding * nums[i] , prevMinEnding * nums[i]});
-
-            ans = max({ans , newMaxEnding , newMinEnding});
-            prevMinEnding = newMinEnding;
-            prevMaxEnding = newMaxEnding;
-        }
-
-        return ans;
-    }
+int maxProduct(vector<int>& nums) {
+  int n = nums.size();
+  int maxending = nums[0];
+  int minending=  nums[0];
+  int ans=nums[0];
+  for(int i =1 ; i < n ; i++){
+    int v1=nums[i];
+    int v2=nums[i]*maxending;
+    int v3=nums[i]*minending;
+    // mere paas mein do type ki ending hai isliye ye kar rahe haii 
+    maxending=max(v1,max(v2,v3));
+    minending=min(v1,min(v2,v3));
+    ans=max(ans,max(maxending,minending));
+  }
+  return ans;
+}
 };
