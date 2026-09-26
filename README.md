@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yshydv77/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0005-longest-palindromic-substring](https://github.com/yshydv77/leetcode-solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0014-longest-common-prefix](https://github.com/yshydv77/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/yshydv77/leetcode-solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0011-container-with-most-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/yshydv77/leetcode-solutions/tree/main/0016-3sum-closest/) | Medium |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/yshydv77/leetcode-solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
@@ -766,4 +769,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/yshydv77/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/yshydv77/leetcode-solutions/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
