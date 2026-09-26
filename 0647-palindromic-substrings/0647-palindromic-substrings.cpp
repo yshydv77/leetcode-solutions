@@ -1,29 +1,22 @@
 class Solution {
 public:
-    int palindrome(string s , int i , int j){
-        int count = 0 ;
-        while(i>=0 && j < s.size() && s[i] == s[j]){
-            // if s[i] is going to be equal to s[j] then only it is going to be the palindrome 
+    int count =0;
+    void expand(string &s , int low , int high){
+        while(low>=0 && high < s.size() && s[low] == s[high]){
+            low--;
+            high++;
             count++;
-            i--;
-            j++;
         }
-        return count;
     }
     int countSubstrings(string s) {
-        int count = 0 ;
-        for(int center = 0 ; center < s.size() ; center++){
-            // for odd length
-            int i = center;
-            int j = center;
+        int n = s.size();
 
-            int oddLengthPalindromeCount = palindrome(s , i ,j);
-            i = center;
-            j = center+1;
-            int evenLengthPalindromeCount = palindrome(s,i,j);
-
-            count += evenLengthPalindromeCount+oddLengthPalindromeCount;
+        for(int i = 0 ; i< n ; i++){
+            // oddlength 
+            expand(s,i,i);
+            expand(s,i,i+1);
         }
-        return count;
+
+        return count ;
     }
 };
