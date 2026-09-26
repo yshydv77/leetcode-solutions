@@ -1,32 +1,33 @@
 class Solution {
 public:
-    bool isPalindrome(string& st, int start, int end) {
-        while (start < end) {
-            if (st[start] != st[end]) {
+    bool checkPalindrome(string &s  , int i , int j ){
+        while(i<=j){
+            if(s[i]!=s[j]){
                 return false;
             }
-            start++;
-            end--;
+            i++;
+            j--;
         }
+
         return true;
     }
-
-    bool validPalindrome(string s) { 
-        int start = 0,
-            end = s.size()-1;
-        
-        while(start < end){
-            if(s[start] == s[end]){
-                start ++;
-                end--;
+    bool validPalindrome(string s) {
+        int i = 0 ;
+        int j = s.size()-1;
+        bool ans = false;
+        while(i<=j){
+            if(s[i] == s[j]){
+                i++;
+                j--;
             }
             else{
-                bool cond1 = isPalindrome(s , start+1 , end);
-                bool cond2 = isPalindrome(s , start , end-1);
-                return cond1 || cond2 ;
+                bool c1 = checkPalindrome(s,i+1,j);
+                bool c2 = checkPalindrome(s,i,j-1);
+                bool a = c1 | c2;
+                return a;
+
             }
         }
-
-        return true;
+    return true;
     }
 };
