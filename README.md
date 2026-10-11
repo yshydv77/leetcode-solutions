@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yshydv77/leetcode-solutions/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/yshydv77/leetcode-solutions/tree/main/0035-search-insert-position/) | Easy |
+| [0039-combination-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0041-first-missing-positive](https://github.com/yshydv77/leetcode-solutions/tree/main/0041-first-missing-positive/) | Hard |
 | [0042-trapping-rain-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/yshydv77/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0039-combination-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0113-path-sum-ii/) | Medium |
 ## Linked List
