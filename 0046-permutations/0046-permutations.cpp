@@ -1,23 +1,35 @@
 class Solution {
 public:
-    void solve(vector<int>& nums , int i ,  vector<vector<int>>&ans){
-        // base case
-        if(i>=nums.size()){
-            ans.push_back(nums);
+    vector<vector<int>>ans;
+    unordered_set<int>st;
+
+    void fun(vector<int>&nums  , int n , vector<int>diary){
+        if(diary.size()==n){
+            ans.push_back(diary);
             return;
         }
-        // har ek value of i ke liye j se start hokar values jo hai unhe hume swap karna 
-        for(int j = i ; j < nums.size() ; j++){
-            swap(nums[i],nums[j]);// ek character ke liye kardiya baki ke liye recursion sambhal lega
-            solve(nums, i+1 , ans);
-            // back track karna hoga taki orignal nums same rahe
-            swap(nums[i], nums[j]);
+
+        for(int i = 0 ; i < n ; i++){
+            if(st.find(nums[i]) == st.end()){
+            diary.push_back(nums[i]);
+            st.insert(nums[i]);
+            fun(nums,n,diary);
+            diary.pop_back();
+            st.erase(nums[i]);
+            }
+
         }
-        
+
+
+
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>>ans;
-        solve(nums , 0 , ans);
+        int n = nums.size();
+        vector<int>diary;
+       
+            fun(nums,n,diary);
+        
+        
         return ans;
     }
 };
