@@ -411,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0046-permutations](https://github.com/yshydv77/leetcode-solutions/tree/main/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0047-permutations-ii/) | Medium |
+| [0077-combinations](https://github.com/yshydv77/leetcode-solutions/tree/main/0077-combinations/) | Medium |
 | [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0113-path-sum-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0113-path-sum-ii/) | Medium |
