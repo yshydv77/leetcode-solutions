@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0041-first-missing-positive](https://github.com/yshydv77/leetcode-solutions/tree/main/0041-first-missing-positive/) | Hard |
 | [0042-trapping-rain-water](https://github.com/yshydv77/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
+| [0046-permutations](https://github.com/yshydv77/leetcode-solutions/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/yshydv77/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/yshydv77/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/yshydv77/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yshydv77/leetcode-solutions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/yshydv77/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
+| [0046-permutations](https://github.com/yshydv77/leetcode-solutions/tree/main/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/yshydv77/leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0113-path-sum-ii](https://github.com/yshydv77/leetcode-solutions/tree/main/0113-path-sum-ii/) | Medium |
