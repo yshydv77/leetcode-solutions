@@ -1,24 +1,23 @@
 class Solution {
 public:
-    unordered_map<int,int>dp;
-    int climbStairs(int n) {
-        // dp ka question isliye hai because mujhe iss process mein particular value of n ko calculate karna pad raha hai 
-        // isliye dp mein value ko store kar lenge and then use karnege 
-        
-        // base case 
-        if(n == 1 || n == 2){
-            return n;
+    int fun(int n, vector<int>& dp) {
+        if (n == 0) {
+            return 1;
+        }
+        if (n < 0) {
+            return 0;
         }
 
-        if(dp.find(n) != dp.end()){
+        if (dp[n] != -1) {
             return dp[n];
         }
 
-        int a1 = climbStairs(n-1);
-        int a2 = climbStairs(n-2);
-        int ans = a1 + a2 ;
-        // yaha par aaye hai iska matlab ye hai ki meine kabhi bhi ye ans nahi dekha tha toh dp mein store kar lenga
-        dp[n] = ans;
-        return ans;
+ 
+
+        return dp[n] = fun(n - 1 , dp) + fun(n - 2,dp);
+    }
+    int climbStairs(int n) {
+        vector<int>dp(n+1,-1);
+        return fun(n,dp);
     }
 };
