@@ -1,35 +1,34 @@
 class Solution {
 public:
-    vector<vector<int>> ans;
-    void helper(vector<int>& candidates, int target, int i, int n,
-                vector<int> diary, int sum) {
-        if (i == n) {
-            if (sum == target) {
-                ans.push_back(diary);
-            }
-            return;
-        }
-    
 
-    helper(candidates, target, i + 1, n, diary, sum);
-    if (sum + candidates[i] <= target) {
-        // 2 choices
-        // lete jao lete jao
-        sum += candidates[i];
-        diary.push_back(candidates[i]);
-        helper(candidates, target, i, n, diary, sum);
-        sum -= candidates[i];
-        diary.pop_back();
+// combination sum
+void fun(vector<int>&candidates , int target , int i , int n , vector<int>ds , vector<vector<int>>&ans){
+    if(i==n){
+        if(target == 0){
+            ans.push_back(ds);
+        }
+        return;
     }
 
-    return;
+    // pick that particular element
+    if(candidates[i] <= target){
+        ds.push_back(candidates[i]);
+        // since hum multiple times ek hi element ko le sakte hai toh isliye i change nahi hoga
+        fun(candidates,target-candidates[i] , i , n , ds, ans);
+        // backtrack
+        ds.pop_back();
+    }
 
+    // hum iss particular element ko pick nahi karenge
+    fun(candidates , target , i+1,n,ds,ans);
 }
-
-vector<vector<int>>
-combinationSum(vector<int>& candidates, int target) {
-    helper(candidates, target, 0, candidates.size(), {}, 0);
+vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    vector<vector<int>>ans;
+    vector<int>ds;
+    int n = candidates.size();
+    int i = 0 ;
+    fun(candidates,target,i,n,ds , ans);
     return ans;
 }
-}
-;
+
+};
