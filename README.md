@@ -769,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0197-rising-temperature](https://github.com/yshydv77/leetcode-solutions/tree/main/0197-rising-temperature/) | Easy |
 | [0584-find-customer-referee](https://github.com/yshydv77/leetcode-solutions/tree/main/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/yshydv77/leetcode-solutions/tree/main/0595-big-countries/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/yshydv77/leetcode-solutions/tree/main/1068-product-sales-analysis-i/) | Easy |
