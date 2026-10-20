@@ -23,7 +23,6 @@ public:
             len = high - low + 1;
         }
         maxLen = max(maxLen , len);
-        
     }
 
     return maxLen;
