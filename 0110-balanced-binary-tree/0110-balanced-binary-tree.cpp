@@ -11,35 +11,34 @@
  */
 class Solution {
 public:
-bool ans = true;
-int height(TreeNode* node){
-  if(node == nullptr){
-    return 0;
-  }
-  if(node->left == nullptr && node->right == nullptr){
-    return 1;
-  }
-
-  int left = height(node->left);
-  int right =  height(node->right);
-    if(abs(left-right) > 1){
-        ans = false;
+int maxDepth(TreeNode* root){
+    if(root == nullptr){
+        return 0;
     }
-  return 1 + max( left,right);
+
+    int left = maxDepth(root->left);
+    int right = maxDepth(root->right);
+    return 1 + max(left , right);
 }
-bool isBalanced(TreeNode *root)
-{
-  if(root == nullptr){
-    return true;
-  }
 
-  if(root->left == nullptr && root->right == nullptr){
-    return true;
-  }
+bool isBalanced(TreeNode* root){
+    if(root == nullptr){
+        return true;
+    }
 
-    int a = height(root);
+    int left = maxDepth(root->left);
+    int right = maxDepth(root->right);
 
-  return ans;
+    if(abs(left -right ) > 1){
+        return false;
+    }
 
+    // above code is only for 1 node we have to check for all the other left and right nodes of the biinary trree
+    // so we have to move to the left and right nodes 
+    bool lft = isBalanced(root->left);
+    bool rght = isBalanced(root->right);
+
+    return lft && rght;
 }
+
 };
