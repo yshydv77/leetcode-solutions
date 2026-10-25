@@ -668,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yshydv77/leetcode-solutions/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -706,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yshydv77/leetcode-solutions/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -748,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yshydv77/leetcode-solutions/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
@@ -822,4 +825,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/yshydv77/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+## DP on Trees
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0543-diameter-of-binary-tree](https://github.com/yshydv77/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
